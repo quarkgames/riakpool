@@ -2,6 +2,6 @@
  [{description, "riakpool"},
   {vsn, "0.1"},
   {registered, []},
-  {applications, [kernel, stdlib]},
+  {applications, [kernel, stdlib, riakc, riak_pb]},
   {mod, {riakpool_app, []}},
   {env, []}]}.
